@@ -1,0 +1,41 @@
+.progress-container {
+  width: 600px;
+  display: flex;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 10px;
+  border-radius: 100px;
+}
+.progress-container:nth-of-type(2) {
+  top: 50px;
+}
+.progress-container:nth-of-type(3) {
+  top: 100px;
+}
+.progress-container:nth-of-type(4) {
+  top: 150px;
+}
+.progress-container:nth-of-type(5) {
+  top: 200px;
+}
+.pgbox {
+  width: 10px;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+  background: red;
+  border: white 1px solid;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  transition: background 0.5s;
+}
+.pgbox:nth-of-type(1) {
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.pgbox:nth-last-of-type(1) {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
