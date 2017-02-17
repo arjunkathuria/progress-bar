@@ -16,11 +16,11 @@ BONUS:- Configurable progress bar colors ; )
 In the Example page, i hooked the Progress bar to page scrolling i.e. as you scroll down, it depicts how much progress did you make scrolling the page.
 
 it implements 5 progress bars, having:-
-1. 5 steps
-2. 10 steps
-3. 20 steps
-4. 33 steps
-5. 100 steps
+- 5 steps
+- 10 steps
+- 20 steps
+- 33 steps
+- 100 steps
 
 ## Live Deployment.
 The example site is deployed `live` and can be accessed at:-
